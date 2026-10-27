@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RedFox.GameExtraction.UI" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Honeycomb\Honeycomb.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\assets\Icon.png" Link="Icon.png" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="Skybox\*.hdr" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

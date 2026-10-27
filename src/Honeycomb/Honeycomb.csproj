@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ModelSupport>True</ModelSupport>
+    <ImageSupport>True</ImageSupport>
+    <AudioSupport>True</AudioSupport>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);MODEL_SUPPORT</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);IMAGE_SUPPORT</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DefineConstants>$(DefineConstants);AUDIO_SUPPORT</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RedFox.Audio.Wwise" />
+    <PackageReference Include="RedFox.GameExtraction" />
+    <PackageReference Include="RedFox.IO" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Handlers\" />
+    <Folder Include="Sources\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="RedFox.Audio.Wwise" Version="2026.10.27.1" />
+    <PackageVersion Include="RedFox.GameExtraction" Version="2026.10.27.1" />
+    <PackageVersion Include="RedFox.GameExtraction.CommandLine" Version="2026.10.27.1" />
+    <PackageVersion Include="RedFox.GameExtraction.UI" Version="2026.10.27.1" />
+    <PackageVersion Include="RedFox.IO" Version="2026.10.27.1" />
+  </ItemGroup>
+</Project>

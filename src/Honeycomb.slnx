@@ -1,0 +1,11 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Alpha" />
+    <BuildType Name="Beta" />
+    <BuildType Name="Debug" />
+    <BuildType Name="Release" />
+  </Configurations>
+  <Project Path="Honeycomb.Cli/Honeycomb.Cli.csproj" />
+  <Project Path="Honeycomb.UI/Honeycomb.UI.csproj" />
+  <Project Path="Honeycomb/Honeycomb.csproj" />
+</Solution>
